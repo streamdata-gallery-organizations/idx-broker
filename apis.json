@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - IDX Broker",
+	"description": "This is a repository of idx broker APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/idx-broker.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://idx-broker.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "IDX Broker",
+			"x-api-slug": "idx-broker",
+			"description": "Based in Eugene, OR, IDX, LLC is nationally known as a leading provider of real estate search applications. IDX, LLC actively manages more than $2 trillion worth of active listing data from more than 600 individual Multiple Listings Services (MLS). IDX, LLC provides integrated IDX software, customizable listing search utilities and lead management tools for real estate based websites (IDX Broker).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png",
+			"humanURL": "http://www.idxbroker.com",
+			"baseURL": "https://example.com//",
+			"tags": "IDX Broker",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/idx-broker/master/_listings/idx-broker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "IDX Broker",
+	"include": [
+		{
+			"name": "IDX Broker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/idx-broker/master/_listings/idx-broker/apis.yaml"
+		}
+	]
+}
